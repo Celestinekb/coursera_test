@@ -1,0 +1,129 @@
+*{box-sizing: border-box;
+  margin: 0 ;
+   
+}
+
+#main{
+width: 100%;
+margin: 10px;
+font-family: helvetica;
+
+
+
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+    
+    
+}
+
+h2{
+    position: absolute;
+    top: 0;
+    right: 0;
+   border:1px solid  black;
+
+}
+
+.one > h2{
+    background-color:darkgreen ;
+}
+
+.two > h2{
+    background-color: darkred;
+}
+
+.three > h2{
+    background-color: darkorange;
+}
+
+p{
+    padding: 35px;
+
+   
+}
+
+   
+
+.one{
+    background-color: blue;
+  
+    
+}
+.two{
+    background-color: aqua;
+    
+    
+}
+.three{
+    background-color: blueviolet;
+    
+    
+}
+
+.one,.two,.three{
+  
+    color: white;
+    margin: 10px;
+    position: relative;
+   
+
+   
+ 
+
+    
+}
+
+@media(min-width:992px){
+    .one,.two,.three{
+        float:left;
+        border: 1px solid black;
+        height: 200px;
+        width: 30%;
+   
+    }
+   
+}
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
+.one,.two,.three{
+    float: left;
+    height: 150px;
+
+}
+.one{
+    width: 45%;
+}
+.two{
+    width: 45%;
+}
+.three{
+    width: 90%;
+}
+}
+@media(max-width:767px){
+
+}
+
+@media(max-width:767px){
+    .one,.two,.three{
+        float: left;
+        height: 150px;
+    
+    }
+    .one{
+        width: 80%;
+    }
+    .two{
+        width: 80%;
+    }
+    .three{
+        width: 80%;
+    }
+    }
+    
